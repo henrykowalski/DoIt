@@ -13,6 +13,7 @@
 		FE45B2C21EA41BE3008CD21B /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE45B2C01EA41BE3008CD21B /* DoIt.xcdatamodeld */; };
 		FE45B2C41EA41BE3008CD21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE45B2C31EA41BE3008CD21B /* Assets.xcassets */; };
 		FE45B2C71EA41BE3008CD21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE45B2C51EA41BE3008CD21B /* LaunchScreen.storyboard */; };
+		FEF55C751EA69F60005A55E5 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF55C741EA69F60005A55E5 /* task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FE45B2C31EA41BE3008CD21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE45B2C61EA41BE3008CD21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE45B2C81EA41BE3008CD21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF55C741EA69F60005A55E5 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FE45B2B91EA41BE3008CD21B /* AppDelegate.swift */,
 				FE45B2BB1EA41BE3008CD21B /* ViewController.swift */,
+				FEF55C741EA69F60005A55E5 /* task.swift */,
 				FE45B2BD1EA41BE3008CD21B /* Main.storyboard */,
 				FE45B2C31EA41BE3008CD21B /* Assets.xcassets */,
 				FE45B2C51EA41BE3008CD21B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF55C751EA69F60005A55E5 /* task.swift in Sources */,
 				FE45B2C21EA41BE3008CD21B /* DoIt.xcdatamodeld in Sources */,
 				FE45B2BC1EA41BE3008CD21B /* ViewController.swift in Sources */,
 				FE45B2BA1EA41BE3008CD21B /* AppDelegate.swift in Sources */,
@@ -305,6 +309,7 @@
 				FE45B2CD1EA41BE3008CD21B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
